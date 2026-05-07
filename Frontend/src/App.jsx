@@ -7,7 +7,7 @@ import Signup from "./Pages/Signup";
 import ForgotPassword from "./Pages/ForgotPassword";
 import VideoPage from "./Pages/VideoPage";
 import WatchPage from "./Pages/WatchPage";
-import Channelpage from "./components/Channelpage";
+import Channelpage from "./Pages/Channelpages";
 
 import Subscriptions from "./Pages/Subscriptions";
 import History from "./Pages/History";

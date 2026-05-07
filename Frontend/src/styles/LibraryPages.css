@@ -1,0 +1,38 @@
+.pageContainer {
+    padding: 20px;
+    background: #0f0f0f;
+    min-height: 100vh;
+    color: white;
+  }
+  
+  .pageContainer h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background: #1f1f1f;
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card p {
+    margin-top: 10px;
+  }

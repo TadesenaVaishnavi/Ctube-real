@@ -1,0 +1,11 @@
+target/
+bin/
+.settings/
+.project
+.classpath
+.factorypath
+
+videos/
+thumbnails/
+
+*.log

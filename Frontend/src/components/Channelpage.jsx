@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate, Link } from "react-router-dom";
-import "./channelpage.css";
+import "../styles/Channelpage.css";
 
 const ChannelPage = () => {
   const navigate = useNavigate();

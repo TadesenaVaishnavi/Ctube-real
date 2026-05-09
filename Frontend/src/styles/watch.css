@@ -88,10 +88,15 @@ body {
 }
 
 /* VIDEO TITLE */
-.video-title {
+/* .video-title {
   margin-top: 10px;
   font-size: 18px;
   font-weight: bold;
+} */
+
+.video-title {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 /* CHANNEL ROW */
@@ -295,7 +300,12 @@ button:hover {
   flex-shrink: 0;
   position: relative;
 }
-
+.thumbnail {
+  width: 160px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 /* Duration */
 .duration {
   position: absolute;

@@ -16,7 +16,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
 
                 registry.addMapping("/api/**")  // ✅ applies to ALL APIs
-                        .allowedOrigins("https://your-frontend.vercel.app") // 🔁 change this
+                        .allowedOrigins("https://ctube-real-tylu.vercel.app/") // 🔁 change this
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
